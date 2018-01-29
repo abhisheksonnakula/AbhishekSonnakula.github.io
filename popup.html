@@ -1,0 +1,139 @@
+<html>
+<h1 align="middle" ><mark><span style="background-color : white">
+<font color="black"> TIC TAC TOE GAME</font><span></mark>
+</h1>
+<style>
+body{
+    background-color: dodgerblue;
+  
+}
+
+.L1,.L2,.L3
+{
+  background-color:dodgerblue;
+  border:none;
+  height:70px;
+  width: 100px;
+  font-size: 40;
+  text-align: center;
+  color: white;
+  font-family:Forte,Stencil Std,Calibri;
+  position: relative;
+  top:98px;
+  left:39%;
+  
+}
+
+
+.L1:focus,.L2:focus,.L3:focus
+{
+  outline-style : solid ;
+}
+#d
+{
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+}
+
+#b
+{
+  border-bottom: 5px solid white; 
+  border-left: 5px solid white; 
+  border-right: 5px solid white;
+}
+#c
+{
+  border-bottom: 5px solid white;
+
+ 
+}
+#f
+{
+  border-bottom: 5px solid white;
+border-left: 5px solid white;
+}
+#e
+{
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+
+}
+#h
+{
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+}
+
+
+
+#Res
+
+{
+    margin: 0 80px;
+    height: 35px;
+    line-height: 17px;
+    width: 150px;
+    font-family:'Luckiest Guy', Arial, Helvetica, sans-serif;
+    font-size: 12;
+    color: #05750A;;
+    background-color:#F6FAF1;
+    border: 2px solid #9CC784;
+    position: fixed;
+    top: -10%;
+    left: 0%;
+    right:0%;
+    margin:auto;
+    text-align: center;
+    box-shadow: 5px 7px 35px 10px black;
+
+    
+}
+  #Score
+{
+    
+    height: 30px;
+    line-height: 30px;
+    width: 300px;
+    font-family:'Luckiest Guy', Arial, Helvetica, sans-serif;
+    font-size: 18;
+    color: #05750A;;
+    background-color:#F6FAF1;
+    border: 2px solid #9CC784;
+    position: fixed;
+    bottom: 2%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 7px 35px 10px black;
+
+}
+</style>
+  <head>
+   <title>Tic Tac Toe</title>
+  </head>
+ 
+   <body>  
+        <div id="Res" align="center">Congratulations!<br/>You Won!</div> 
+        <div id="Score" align="center">WON- 0 : 0 -LOST</div> 
+   
+        <input class="L1" id="a" type="Button" value=" " onclick="ClickOnButton('L1',0)"/>
+        <input class="L1" id="b" type="Button" value=" " onclick="ClickOnButton('L1',1)"/>
+        <input class="L1" id="c" type="Button" value=" " onclick="ClickOnButton('L1',2)"/>
+        <br/>
+        
+        <input class="L2" id="d" type="Button" value=" " onclick="ClickOnButton('L2',0)" />
+        <input class="L2" id="e" type="Button" value=" " onclick="ClickOnButton('L2',1)"/>
+        <input class="L2" id="f" type="Button" value=" " onclick="ClickOnButton('L2',2)"/>
+        <br/>
+        
+        <input class="L3" id="g" type="Button" value=" " onclick="ClickOnButton('L3',0)" />
+        <input class="L3" id="h" type="Button" value=" " onclick="ClickOnButton('L3',1)"/>
+        <input class="L3" id="i" type="Button" value=" " onclick="ClickOnButton('L3',2)"/>
+<h1 align="bottom"><font color= "yellow">Win if you can.</font></h1>
+     
+    </body> 
+<script src="popup.js"></script> 
+</html>
